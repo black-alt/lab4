@@ -30,8 +30,7 @@ public class Main {
 
         Room ist = new Room();
         ist.setSquare(3000);
-        int savedId = roomDao.save(ist);
-        System.out.println(savedId);
+        roomDao.save(ist)       
 
         SofaDao sofaDao = new SofaDao();
         Sofa sofa = new Sofa();
