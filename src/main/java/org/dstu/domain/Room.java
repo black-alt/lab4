@@ -15,8 +15,7 @@ public class Room {
     private int square;
 
     private Set<Sofa> sofas = new LinkedHashSet<>();
-
-    @Basic
+    
     @Id
     @GeneratedValue
     @Column(name = "id")
