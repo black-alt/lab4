@@ -30,7 +30,7 @@ public class Main {
 
         Room ist = new Room();
         ist.setSquare(3000);
-        roomDao.save(ist)       
+        roomDao.save(ist);       
 
         SofaDao sofaDao = new SofaDao();
         Sofa sofa = new Sofa();
